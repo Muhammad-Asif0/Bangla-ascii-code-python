@@ -1,5 +1,6 @@
-InputString=input()
-count=0
+InputString = input()
+count = 0
+
 for LoopCounter in range(len(InputString)):
     if ord(InputString[LoopCounter])>=2437 and ord(InputString[LoopCounter])<=2443:
      count=count+1
@@ -14,7 +15,7 @@ for LoopCounter in range(len(InputString)):
     elif ord(InputString[LoopCounter])>=2492 and ord(InputString[LoopCounter])<=2500:
      count=count+1
 
-if count>0:
+if count > 0:
     print("It is a bangla line")
 else:
     print("It is not a bangla line")
